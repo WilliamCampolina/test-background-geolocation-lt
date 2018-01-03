@@ -49,8 +49,7 @@ angular.module('starter.controllers', [])
                         }
                     }
 
-                    //var url = "http://mydomain.com.br/webService/save";
-                    var url = "http://authidro.com.br/webServiceSmartHidro/app/index.php/savetest";
+                    var url = "http://mydomain.com.br/webService/save";
                     var paramSerializado = dados;
                     $http({
                         method: 'POST',
